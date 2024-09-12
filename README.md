@@ -17,14 +17,14 @@ Echo$phere is a simple chat server implemented in Go, providing real-time text-b
 
 ## Installation
 
-1. **Clone the Repository**
+### 1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/yourusername/echosphere-chat-server.git
    cd echo$phere-chat-server
    ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 The project uses the fatih/color package for color handling. Install it using:
 
@@ -32,7 +32,7 @@ The project uses the fatih/color package for color handling. Install it using:
      go get github.com/fatih/color
      ```
 
-3. Build the Project
+### 3. Build the Project
 
 Compile the Go code into an executable:
 
@@ -40,7 +40,7 @@ Compile the Go code into an executable:
      go build -o server main.go
      ```
 
-4. Usage
+### 4. Usage
   Run the server executable to start the server:
 
      ```bash
@@ -49,7 +49,7 @@ Compile the Go code into an executable:
 
   The server will start and listen on port 2000 by default. You can change the port by modifying the port variable in main.go.
 
-5. Connect to the Server
+### 5. Connect to the Server
 
   Use a TCP client (like telnet or a custom client) to connect to the server:
 
@@ -62,7 +62,7 @@ Compile the Go code into an executable:
      go run client.go
      ```
 
-7. Interact with the Chat Room
+### 7. Interact with the Chat Room
 
   Enter a Username: You'll be prompted to enter a username upon connection.
   Send Messages: Type your message and press Enter to send it.
